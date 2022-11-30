@@ -7,7 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "createTable": "node -r dotenv/config ./db/scripts/createTable.js"
+    "createTable": "node -r dotenv/config ./db/scripts/createTable.js",
+    "populateTable": "node -r dotenv/config ./db/scripts/populateTable.js",
+    "dropTable": "node -r dotenv/config ./db/scripts/dropTable.js",
+    "resetTable": "node -r dotenv/config ./db/scripts/dropTable.js && node -r dotenv/config ./db/scripts/createTable.js && node -r dotenv/config ./db/scripts/populateTable.js"
   },
   "repository": {
     "type": "git",

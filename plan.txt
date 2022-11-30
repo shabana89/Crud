@@ -1,10 +1,19 @@
 Need nodemon ✅
 Need cors - when the front end corresponds with the backend ✅
 Need express ✅
+Need dotenv ✅
+Need pg ✅
+
 Will create welcome message to see if server is running ✅
 Will create PORT listen on ✅
 Need to put express into a variable ✅
 Will use the variable to loisten to the PORT ✅
 Want to change the syntax by import ✅
+Create router ✅
+Create dummy data ✅
+Make heroku database ✅
+Use environment barables ✅
+Create table script ✅
+    - Create script shortcut in package.json ✅
 
 
